@@ -1,0 +1,142 @@
+
+* {
+font-family: "Calibri", sans-serif;
+font-size: 15px;
+}
+
+.pt {
+}
+
+.en {
+display: none;
+}
+
+.container {
+margin-top: 80px;
+margin-bottom: 80px;
+margin-left: 100px;
+margin-right: 80px;
+}
+
+.name {
+text-align: left;
+font-size: 26px;
+color: #000000;
+}
+
+.pic {
+margin-bottom: 30px;
+}
+
+.pic img {
+width: 70%;
+max-width: 200px;
+}
+
+.about {
+font-weight: 100;
+margin-top: 30px;
+}
+
+.about p {
+margin-top: 20px;
+}
+
+.social {
+font-size: 25px;
+}
+
+.social table {
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.social td {
+text-align: center;
+}
+
+.skills {
+margin-top: 30px;
+}
+
+.skills table {
+width: 100%;
+max-width: 250px;
+}
+
+.right {
+border-left: 2px solid grey;
+padding-left: 30px;
+}
+
+.title {
+font-weight: 600;
+font-size: 25px;
+padding-left: 79px;
+}
+
+.duration {
+width: 65px;
+}
+
+.subtitle {
+font-weight: 600;
+width: 70%;
+}
+
+.desc {
+padding-left: 13%;
+width: 70%;
+}
+
+ul {
+padding-left: 15%;
+}
+
+li {
+width: 70%;
+}
+
+@media (max-width: 991px) {
+    .container {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .pic {
+        text-align: center;
+    }
+
+    .social {
+        text-align: center;
+        word-spacing: 80px;
+    }
+
+    .skills {
+        margin-bottom: 20px;
+    }
+
+    .right {
+        border-left : 0px;
+        padding-left: 0;
+    }
+
+    .title {
+        padding-left: 0;
+
+    }
+
+    .subtitle {
+        width: 100%;
+    }
+
+    .desc {
+        padding-left: 0px;
+        width: 100%;
+    }
+}
