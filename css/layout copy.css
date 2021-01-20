@@ -1,0 +1,84 @@
+* {
+	font-family: 'TeXGyreHerosCondensed', sans-serif;
+    font-family: 'TeXGyreHeros', sans-serif;
+    font-size: 15px;
+}
+
+img {
+    width: 40%;
+    margin-left: 30%;
+    height: auto;
+}
+
+.profile-picture {
+    width: 8rem;
+    height: auto;
+    margin-left: 0;
+}
+
+a ,
+a:link ,
+a:visited ,
+a:hover ,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {}
+h2 {}
+h3 {}
+h5 {}
+
+.page {
+    margin-left: 0.5in;
+    margin-top: 0.4in;
+    margin-right: 0.4in;
+    margin-bottom: 0.5in;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+}
+
+ul {
+    padding: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.block .item:last-child {
+    padding-bottom: 15px;
+}
+
+.title {
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+.date {
+    font-style: italic;
+}
