@@ -1,157 +1,81 @@
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'TeXGyreHerosCondensed', sans-serif;
+    font-family: 'TeXGyreHeros', sans-serif;
     font-size: 15px;
 }
 
-.container {
-    margin-top: 80px;
-    margin-bottom: 80px;
+img {
+    width: 40%;
+    margin-left: 30%;
+    height: auto;
 }
 
-.name {
-    text-align: left;
-    font-size: 26px;
+.profile-picture {
+    width: 8rem;
+    height: auto;
+    margin-left: 0;
+}
+
+a ,
+a:link ,
+a:visited ,
+a:hover ,
+a:active {
+    text-decoration: underline;
     color: black;
 }
 
-.pt_flag {
+.page {
+    margin-left: 0.5in;
+    margin-top: 0.4in;
+    margin-right: 0.4in;
+    margin-bottom: 0.5in;
 }
 
-.en_flag {
-    display: none;
+h1 {
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
-.pt {
-    display: none;
+h2 {}
+
+h3 {
+    font-size: 1.2rem;
 }
 
-.en {
+h4 {
+    font-size: 1.1rem;
 }
 
-.left {
+h5 {
+    font-size: 1rem;
 }
 
-.left .title {
+p {
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+}
+
+ul {
+    padding: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.block .item:last-child {
+    padding-bottom: 15px;
+}
+
+.title {
     font-weight: 600;
-    font-size: 18px;
-}
-
-.pic {
-    margin-bottom: 30px;
-}
-
-.pic img {
-    width: 70%;
-    max-width: 200px;
-}
-
-.about {
-    font-weight: 300;
-    margin-top: 30px;
-}
-
-.about p {
-    margin-top: 20px;
-}
-
-.social {
-    font-size: 25px;
-}
-
-.social table {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.social td {
-    text-align: center;
-}
-
-.skills {
-    margin-top: 30px;
-}
-
-.skills p {
-    width: 100%;
-    word-spacing: 2rem;
-}
-
-.skills p .spaces {
-    word-spacing: initial;
-}
-
-.interests {
-    margin-top: 30px;
-}
-
-.interests ul {
-    padding-left: 1rem;
-}
-
-.right {
-    border-left: 2px solid grey;
-    padding-left: 30px;
-}
-
-.right .title {
-    font-weight: 600;
-    font-size: 25px;
-    padding-left: 79px;
-}
-
-.duration {
-    width: 65px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
 }
 
 .subtitle {
     font-weight: 600;
-    width: 70%;
 }
 
-.desc {
-    padding-left: 13%;
-    width: 70%;
-}
-
-@media (max-width: 991px) {
-    .container {
-        margin-top: 20px;
-    }
-
-    .name {
-        text-align: center;
-    }
-    
-    .pic {
-        text-align: center;
-    }
-
-    .social {
-        text-align: center;
-        word-spacing: 80px;
-    }
-
-    .skills {
-        margin-bottom: 20px;
-    }
-
-    .right {
-        border-left : 0px;
-        padding-left: 0;
-    }
-
-    .title {
-        padding-left: 0;
-
-    }
-
-    .subtitle {
-        width: 100%;
-    }
-
-    .desc {
-        padding-left: 0px;
-        width: 100%;
-    }
+.date {
+    font-style: italic;
 }
