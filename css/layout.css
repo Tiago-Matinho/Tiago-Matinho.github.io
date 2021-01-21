@@ -16,6 +16,7 @@ img {
     margin-left: 0;
 }
 
+.btn-lang,
 a ,
 a:link ,
 a:visited ,
@@ -23,6 +24,7 @@ a:hover ,
 a:active {
     text-decoration: underline;
     color: black;
+    cursor: pointer;
 }
 
 .page {
@@ -78,4 +80,8 @@ ul {
 
 .date {
     font-style: italic;
+}
+
+.page.hidden {
+    display: none;
 }
